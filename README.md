@@ -11,6 +11,7 @@ development. It incorporates tools, web frameworks, and libraries, including:
 - [Normalize.css][5] for cross-browser rendering consistency
 - [jQuery][6] for quick development of JavaScript features
 - [Modernizr][7] for feature detection
+- [Jasmine][8] for unit testing
 
 ##How to use it
 ###Quick start
@@ -18,11 +19,11 @@ If you just want to get started and/or don't need build features, just copy
 the contents of the `src` directory to a new directory and begin modifying
 `index.html`, `stylesheets/style.css`, and `javascripts/main.js`.
 
-###Full use
+###Building
 For the full boilerplate with build features, [you will need to have Node.js
-installed][8] (which comes with NPM). In addition, you will need the grunt-cli
-installed globally. If you don't already have it, run `npm install -g
-grunt-cli` from the command line.
+installed][9] (which comes with NPM). In addition, you will need the
+[grunt-cli][10] installed globally. If you don't already have it, run
+`npm install -g grunt-cli` from the command line.
 
 With the environment set up, copy
 
@@ -37,6 +38,14 @@ Begin development by modifying `src/index.html`, `src/stylesheets/style.css`,
 and `src/javascripts/main.js`. When you want to build, run `grunt` from the
 command line. The built project will appear in the `build` directory.
 
+###Testing
+Unit tests are ran using [Jasmine][8]. Everything is contained in the `test`
+directory. Describe tests in `test/javascripts/spec.js`. If you want to break
+specs into multiple files, just modify `test/javascripts/main.js` to include
+all your spec files.
+
+Run tests by opening `test/SpecRunner.html` in a browser.
+
 [1]: http://gruntjs.com
 [2]: http://requirejs.org/
 [3]: http://twitter.github.com/bootstrap/
@@ -44,4 +53,6 @@ command line. The built project will appear in the `build` directory.
 [5]: http://necolas.github.com/normalize.css/
 [6]: http://jquery.com/
 [7]: http://modernizr.com/
-[8]: http://nodejs.org/download/
+[8]: http://pivotal.github.com/jasmine/
+[9]: http://nodejs.org/download/
+[10]: https://github.com/gruntjs/grunt-cli

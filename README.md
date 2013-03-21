@@ -25,14 +25,8 @@ installed][9] (which comes with NPM). In addition, you will need the
 [grunt-cli][10] installed globally. If you don't already have it, run
 `npm install -g grunt-cli` from the command line.
 
-With the environment set up, copy
-
-- the `src` directory
-- `gruntfile.js`
-- `package.json`
-
-to a new directory. Modify `package.json` to include the name of your project.
-Then, run `npm install` from the command line to install dependencies.
+With the environment set up, modify `package.json` to include the name of your
+project. Then, run `npm install` from the command line to install dependencies.
 
 Begin development by modifying `src/index.html`, `src/stylesheets/style.css`,
 and `src/javascripts/main.js`. When you want to build, run `grunt` from the

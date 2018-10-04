@@ -47,6 +47,6 @@ Run tests by opening `test/SpecRunner.html` in a browser.
 [5]: http://necolas.github.com/normalize.css/
 [6]: http://jquery.com/
 [7]: http://modernizr.com/
-[8]: http://pivotal.github.com/jasmine/
+[8]: https://jasmine.github.io/
 [9]: http://nodejs.org/download/
 [10]: https://github.com/gruntjs/grunt-cli
